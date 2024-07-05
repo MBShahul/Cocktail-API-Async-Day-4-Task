@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Finder</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Cocktail Finder</h1>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h4>Search Cocktail by Name</h4>
+                <input type="text" id="search-name-input" class="form-control" placeholder="Enter cocktail name">
+                <button id="search-name-btn" class="btn btn-primary mt-2">Search</button>
+            </div>
+            <div class="col-md-4">
+                <h4>List Cocktails by First Letter</h4>
+                <input type="text" id="search-letter-input" class="form-control" placeholder="Enter first letter">
+                <button id="search-letter-btn" class="btn btn-primary mt-2">Search</button>
+            </div>
+            <div class="col-md-4">
+                <h4>Search Ingredient by Name</h4>
+                <input type="text" id="search-ingredient-input" class="form-control" placeholder="Enter ingredient name">
+                <button id="search-ingredient-btn" class="btn btn-primary mt-2">Search</button>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button id="random-cocktail-btn" class="btn btn-secondary">Get Random Cocktail</button>
+        </div>
+
+        <div id="results-container" class="mt-5"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

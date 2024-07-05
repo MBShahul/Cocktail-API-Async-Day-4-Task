@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: 'Arial', sans-serif;
+}
+
+#results-container {
+    margin-top: 20px;
+}
+
+.cocktail-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.cocktail-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cocktail-card h3 {
+    color: #ff6f61;
+}
+
+.cocktail-card p {
+    color: #555555;
+}
